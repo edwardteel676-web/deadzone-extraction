@@ -1,0 +1,13 @@
+How to run Deadzone servers
+
+cd ~/deadzone
+node server.js
+
+(diff tab)
+curl -I http://127.0.0.1:3000
+
+CTRL+C to shutdown
+
+
+make sure to add backups sometimes
+cp -r ~/deadzone ~/deadzone-backup
